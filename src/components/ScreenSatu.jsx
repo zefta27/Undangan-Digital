@@ -23,7 +23,7 @@ const ScreenSatu = (props) => (
           <img src={couple1} alt="" className="w-[120px] my-6 z-10 relative text-center"/>
         </center>
 
-        <h3 className='text-center text-5xl max-xs:text-4xl font-bold my-4 font-fall tracking-wider fade-in z-50 relative'>Zefta & Ani</h3>
+        <h3 className='text-center text-5xl max-xs:text-4xl font-bold my-4 font-fall tracking-wider fade-in z-50 relative'>John & Juliette</h3>
         <div className='relative '>
           <div className='relative z-40 bg-glass py-2 w-[300px] justify-center items-center text-center max-mx:mx-auto rounded max-xs:mx-auto mb-5 ' >
               <h5 className='text-center'>Kepada Yth;</h5>

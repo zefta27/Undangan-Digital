@@ -39,12 +39,12 @@ const ScreenAlamat = () => (
           <center>
          
         
-          <a href="https://s.id/zefta_dan_ani" class="inline-flex items-center bg-orange-500 rounded text-white p-2 ">
+          <a href="#" class="inline-flex items-center bg-orange-500 rounded text-white p-2 ">
               <HiOutlineLocationMarker class="mr-1" size={20} className="bounce-3"/>
               <span>Cek Di Peta</span>
              
             </a>
-            <p className="text-center font-mono p-6 relative  z-10">Lingkungan III RT.001 RW.005  (Kalangan) Gelumbang Kec. Gelumbang Kab. Muara Enim</p>
+            <p className="text-center font-mono p-6 relative  z-10">Lingkungan I RT.001 RW.005  Kuningan, Jakarta Pusat</p>
       
           </center>
         </div>

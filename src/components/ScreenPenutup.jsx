@@ -19,7 +19,7 @@ const ScreenPenutup = () => (
         </div>
         <center>
         <img src={couple} alt="" className="w-[150px] my-6 z-10 relative"/>
-        <p className="font-fall text-3xl relative z-10 tracking-widest font-bold fade-in">Zefta & Ani</p>
+        <p className="font-fall text-3xl relative z-10 tracking-widest font-bold fade-in">John & Juliette</p>
         </center>
       </div>
     </div>

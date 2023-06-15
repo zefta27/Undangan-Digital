@@ -11,11 +11,11 @@ const ScreenMempelai = () => (
         <img src={bismillah} alt="" className="w-[250px] mx-auto"/>
         <h5 className="text-center font-poppins ">Assalamualaikum Warahmatullahi Wabarakatuh</h5>
         <p className="text-center m-4">Maha suci Allah SWT yang telah menciptakan makhluk-Nya Berpasang-pasangan. Perkenankanlah kami menyampaikan pernikahan putra-putri kami:</p>
-        <h4 className='text-center text-4xl max-xs:text-3xl font-fall my-3 font-bold tracking-widest'>Zefta Adetya, S.SI</h4>
-        <p className="text-center my-2 px-2">Putra Kedua dari Bapak Abdul Haris, S.IP., M.Si dan Ibu Ratni</p>
+        <h4 className='text-center text-4xl max-xs:text-3xl font-fall my-3 font-bold tracking-widest'>John Doe</h4>
+        <p className="text-center my-2 px-2">Putra Kedua dari Bapak Fulan dan Ibu Fulanah</p>
         <p className="text-center my-4">dengan</p>
-        <h4 className='text-center text-4xl max-xs:text-3xl font-fall my-3 font-bold  tracking-widest'>Ani Liana, S.K.M</h4>
-        <p className="text-center my-2  px-2">Putri Kedua dari Bapak Holidin dan Ibu Suryana</p>
+        <h4 className='text-center text-4xl max-xs:text-3xl font-fall my-3 font-bold  tracking-widest'>Juliette</h4>
+        <p className="text-center my-2  px-2">Putri Kedua dari Bapak Fulan dan Ibu Fulanah</p>
         </div>
     </div>
     <div className=" flex grow w-full relative  ">
