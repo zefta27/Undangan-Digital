@@ -10,7 +10,7 @@ import bgBunga from '../assets/bgbunga.png'
 
 
 const ScreenDua = () => (
-  <div className='h-screen max-xs:w-full w-[517px]  flex flex-col  bg-gradient-to-b from-[#F5F0EC] via-white to-[#F5F0EC]'>
+  <div id='doa' className='h-screen max-xs:w-full w-[517px]  flex flex-col  bg-gradient-to-b from-[#cce9e0] via-white to-[#e6f4f0]  '>
   <div className=" grow w-full relative ">
     <img src={Bunga8} alt="ranting" className= 'top-[65px] absolute right-[-85px]    w-[220px] max-xs:w-[220px] max-xs:right-[-80px]  class-swing  transform rotate-[50deg]' style={{"--rotation-angle": "100deg"}}/>
     <img src={Bunga14} alt="bunga kanan" className= 'top-[15px] max-xs:top[30px] absolute right-[-85px]    w-[290px] max-xs:w-[240px] max-xs:right-[-100px]  class-swing-negatif  transform rotate-[50deg]' style={{"--rotation-angle": "0deg"}}/>

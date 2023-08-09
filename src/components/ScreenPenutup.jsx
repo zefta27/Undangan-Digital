@@ -1,7 +1,7 @@
-import { bismillah, bgBunga1, melati, couple, bgBunga, Bunga6, Bunga8, Bunga9, Bunga5, Bunga11, Bunga12, Bunga7, Bunga10 } from "../assets"
+import { bismillah, bgBunga1, melati, couple, bgBunga, Bunga6, Bunga8, Bunga9, Bunga5, Bunga11, Bunga12, Bunga7, Bunga10, photoUndangan1 } from "../assets"
 
 const ScreenPenutup = () => (
-  <div className='h-screen max-xs:w-screen w-[517px]  flex flex-col relative'  style={{background :'radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(244,239,235,1) 100%)'}} >
+  <div id="thanks" className='h-screen max-xs:w-screen w-[517px]  flex flex-col relative  bg-gradient-to-b from-[#e6f4f0] to-white' style={{background : 'linear-gradient(0deg, #00ac6959, white), url('+photoUndangan1+')', backgroundSize :'cover', backgroundPosition : 'center'}} >
      <div className=" grow w-full relative">
       <img src={Bunga10} alt="" className='absolute  top-0 right-0 z-0 w-[220px] max-xs:w-[180px]  '  />
       <img src={Bunga9} alt="Pisang" className='absolute  top-[-140px] max-xs:top-[-110px]  z-0 right-[50px] max-xs:right-[45px] w-[300px] max-xs:w-[220px] md:w-[253px] class-swing' style={{"--rotation-angle": "140deg"}} />
@@ -18,13 +18,16 @@ const ScreenPenutup = () => (
          <p className="text-center p-6 z-10 relative">Tanpa mengurangi rasa hormat kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri pernikahan kami</p>
         </div>
         <center>
-        <img src={couple} alt="" className="w-[150px] my-6 z-10 relative"/>
-        <p className="font-fall text-3xl relative z-10 tracking-widest font-bold fade-in">John & Juliette</p>
+       
+        <p className="font-fall text-3xl relative z-10 my-6 tracking-widest font-bold fade-in">Zefta & Ani</p>
+        </center>
+        <center>
+          <p className="text-white text-[8px]">Made by ♥️ Zefta Adetya</p>
         </center>
       </div>
     </div>
     <div className="grow  w-screen">
-        <img src={bgBunga} alt="" className='absolute   bottom-0 left-0 z-0 w-[220px] max-xs:w-[180px] ' />
+     
         <img src={Bunga6} alt="bunga samping" className= 'absolute right-[-85px]  transform rotate-[50deg]   w-[260px] max-xs:w-[240px] max-xs:right-[-100px] bottom-[100px] class-swing ' style={{"--rotation-angle": "30deg"}}/>
         {/* <img src={Bunga8} alt="ranting kanan" className= 'absolute     left-[100px]  transform rotate-[320deg]   w-[300px] max-xs:w-[190px] bottom-[-30px] max-xs:bottom-[-30px] class-swing'  style={{"--rotation-angle": "320deg"}} /> */}
         {/* <img src={Bunga6} alt="bunga samping" className= 'absolute     left-[-50px]  transform rotate-[270deg]   w-[260px] max-xs:w-[190px] bottom-[-40px] max-xs:left-[-30px] max-xs:bottom-[-60px] class-swing-negatif'  style={{"--rotation-angle": "340deg"}} /> */}

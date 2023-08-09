@@ -18,7 +18,7 @@ const ScreenPlayButton = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 p-4 rounded-full text-center max-xs:h-screen z-50">
+    <div className="fixed top-0 left-0 p-4 rounded-full text-center max-xs:h-auto z-50">
     <button
       className="p-2 rounded-full bg-orange-500 text-peach mr-2 focus:outline-none text-white"
       onClick={handleMuteToggle}

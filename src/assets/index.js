@@ -21,6 +21,8 @@ import melati from "./melati.webp";
 import couple from "./couple.webp";
 import couple1 from "./couple1.webp";
 import mp3 from "./menikahimu.mp3";
+import photoUndangan from "./photoundangan.jpg";
+import photoUndangan1 from "./photoundangan1.jpg";
 
 export {
   bgBunga,
@@ -46,4 +48,6 @@ export {
   couple,
   couple1,
   mp3,
+  photoUndangan,
+  photoUndangan1,
 };

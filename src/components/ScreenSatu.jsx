@@ -1,10 +1,26 @@
+import React, { useState } from "react";
 
-import {Bunga5, Bunga6, Bunga7, Bunga8, Bunga9, Bunga10, Bunga11, Bunga12, Bunga13, bgBunga, couple1} from '../assets';
+
+import {Bunga5, Bunga6, Bunga7, Bunga8, Bunga9, Bunga10, Bunga11, Bunga12, Bunga13, bgBunga, couple1, photoUndangan} from '../assets';
 
 
-const ScreenSatu = (props) => (
+const ScreenSatu = (props) => {
   
-  <div className='h-screen max-xs:w-screen w-[517px]  flex flex-col relative ' style={{background :'radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(244,239,235,1) 100%)'}}>
+
+  
+const scrollToSection =  () => {
+
+  const section = document.getElementById("mempelai");
+  if (section) {
+    section.scrollIntoView({ behavior: "smooth" });
+
+    
+  }
+};
+
+
+  return(
+  <div className='h-screen max-xs:w-screen w-[517px]  flex flex-col relative ' style={{background : 'linear-gradient(0deg, #00ac6959, white), url('+photoUndangan+')', backgroundSize: 'cover', backgroundPosition: 'center'}}>
   <div className=" grow w-full relative">
     <img src={Bunga10} alt="" className='absolute  top-0 right-0 z-0 w-[220px] max-xs:w-[180px]  '  />
       <img src={Bunga9} alt="Pisang" className='absolute  top-[-140px] max-xs:top-[-110px]  z-0 right-[50px] max-xs:right-[45px] w-[300px] max-xs:w-[220px] md:w-[253px] class-swing' style={{"--rotation-angle": "140deg"}} />
@@ -16,14 +32,12 @@ const ScreenSatu = (props) => (
       <img src={Bunga7} alt="kuning" className='absolute  top-[-30px] w-[60px] max-xs:w-[50px] right-[120px] max-xs:right-[105px] max-xs:top-[-10px]' />
   </div>
   <div className="flex grow justify-center items-center ">
-    <div class="max-xs:w-screen relative">
+    <div className="max-xs:w-screen relative" style={{alignSelf: " flex-end"}}>
    
-        <h4 className='text-center text-3xl max-xs:text-xl font-poppins my-3 font-bold'>THE WEDDING OF</h4>
-        <center>
-          <img src={couple1} alt="" className="w-[120px] my-6 z-10 relative text-center"/>
-        </center>
+        <h4 className='text-center text-3xl max-xs:text-xl font-poppins my-3 font-bold flex-end'>Ngunduh Mantu</h4>
+        
 
-        <h3 className='text-center text-5xl max-xs:text-4xl font-bold my-4 font-fall tracking-wider fade-in z-50 relative'>John & Juliette</h3>
+        <h3 className='text-center text-5xl max-xs:text-4xl font-bold my-4 font-fall tracking-wider fade-in z-50 relative'>Zefta & Ani</h3>
         <div className='relative '>
           <div className='relative z-40 bg-glass py-2 w-[300px] justify-center items-center text-center max-mx:mx-auto rounded max-xs:mx-auto mb-5 ' >
               <h5 className='text-center'>Kepada Yth;</h5>
@@ -32,14 +46,14 @@ const ScreenSatu = (props) => (
           </div>
         </div>
         <center>
-          <a href="#mempelai" class="bg-orange-500 text-white py-2 px-4 rounded mt-6 pulse z-30 relative">
+          <button onClick={ scrollToSection} class="bg-orange-500 text-white py-2 px-4 rounded mt-6 pulse z-30 relative">
             Buka Undangan
-          </a>
+          </button>
         </center>
     </div>
   </div>
   <div className="grow w-screen">
-      <img src={bgBunga} alt="" className='absolute   bottom-0 left-0 z-0 w-[220px] max-xs:w-[180px] ' />
+      {/* <img src={bgBunga} alt="" className='absolute   bottom-0 left-0 z-0 w-[220px] max-xs:w-[180px] ' /> */}
       <img src={Bunga8} alt="ranting kanan" className= 'absolute     left-[100px]  transform rotate-[320deg]   w-[300px] max-xs:w-[190px] bottom-[-60px] max-xs:bottom-[-60px] class-swing'  style={{"--rotation-angle": "320deg"}} />
       <img src={Bunga6} alt="bunga samping" className= 'absolute     left-[-50px]  transform rotate-[270deg]   w-[260px] max-xs:w-[190px] bottom-[-40px] max-xs:left-[-30px] max-xs:bottom-[-60px] class-swing-negatif'  style={{"--rotation-angle": "340deg"}} />
       <img src={Bunga9} alt="pisang" className='absolute  bottom-[-70px] right-0 z-0 left-[90px] max-xs:left-[95px] w-[240px] max-xs:w-[200px] rotate-[260deg] max-xs:bottom-[-100px] class-swing-satu' style={{"--rotation-angle": "260deg"}}/>
@@ -48,7 +62,7 @@ const ScreenSatu = (props) => (
       <img src={Bunga7} alt="kuning" className='absolute  z-20 bottom-0  w-[80px] left-[130px] max-xs:w-[50px] max-xs:bottom-[-10px] max-xs:left-[100px]'/>
   </div>
 </div>
-
-)
+  );
+  }
 
 export default ScreenSatu;
